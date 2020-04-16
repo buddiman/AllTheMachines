@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="https://www.google.de"
+
+[[mods]]
+    modId="allthemachines"
+    version="alpha"
+    displayName="All the Machines"
+    displayURL="https://www.yahoo.de"
+    authors="buddiman"
+    credits="buddiman"
+    description='''ALLES WAS MAN WILL KANN DES DING'''
+
+
+[[dependencies.allthemachines]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="1.14"
+    side="BOTH"
+[[dependencies.allthemachines]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    side="BOTH"
