@@ -27,6 +27,7 @@ public class AllTheMachines {
     public AllTheMachines() {
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
