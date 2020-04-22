@@ -14,8 +14,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.0'
-group = 'com.buddiman.allthethings' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'allthethings'
+group = 'com.buddiman.allthemachines' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'allthemachines'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -115,7 +115,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "AllTheThings",
+            "Specification-Title": "AllTheMachines",
             "Specification-Vendor": "Monnem",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
