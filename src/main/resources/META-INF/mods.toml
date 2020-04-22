@@ -1,12 +1,12 @@
 modLoader="javafml"
 loaderVersion="[28,)"
-issueTrackerURL="https://www.google.de"
+issueTrackerURL="https://github.com/buddiman/AllTheMachines/issues"
 
 [[mods]]
     modId="allthemachines"
     version="alpha"
     displayName="All the Machines"
-    displayURL="https://www.yahoo.de"
+    displayURL="https://github.com/buddiman/AllTheMachines"
     authors="buddiman"
     credits="buddiman"
     description='''ALLES WAS MAN WILL KANN DES DING'''
